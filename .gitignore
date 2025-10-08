@@ -1,0 +1,45 @@
+# Xcode
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+DerivedData/
+.DS_Store
+ios-app/SmartKeyboard/SmartKeyboard.xcodeproj/xcuserdata/
+ios-app/SmartKeyboard/SmartKeyboard.xcodeproj/project.xcworkspace/xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+
+# Swift Package Manager
+.swiftpm/
+.build/
+*.swiftpm
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# 重要！不要上传 API Key 和敏感信息
+backend/.env
+.env
+*.key
+*.pem
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
